@@ -40,7 +40,8 @@ namespace SampleConApp
             //Console.WriteLine($"The name entered is {input}");//New syntax of C# 5.0
 
             //Call the method U have created above...
-            takeInputsAndDisplay();
+            //takeInputsAndDisplay();
+
         }
     }
 }
