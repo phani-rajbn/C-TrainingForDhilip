@@ -1,0 +1,15 @@
+﻿WPF stands for Windows presentation Framework. It is a new way of developing Windows Apps on new platforms of Windows like Win Vista, Win 7 and later versions. However it was very popular for developing apps on multiple platforms and devices of the Windows Editions. 
+It is built on  DirectX technology. WinForms are based on Win32 APIs. WPF gives more graphical features compared to WinForms which follows the traditional Win32 API.  DirectX is based on COM Technology. DirectX uses a hardware called Graphics card to optimize the Graphics of the Application. However it completely monopolizes the graphics card. There by making other apps slow down. This is not suited for Desktop apps. WPF changes this. It has modified the DirectX to make it usable in a Desktop Environment. This makes DirectX share the Graphics Card resource among multiple apps that are running on ur os. 
+DirectX is written in C++. There is a Interoperability code that converts the low level C++ APIs into C# Code. 
+MilCore.dll is the C++ Code that allows DirectX to work on Desktop environment. Media Integration Layer Core is the library for converting DirectX to work on desktop envinronment.
+WindowsBase.dll converts the Unmanaged Milcore to Managed Environment of .NET Framework. 
+PresentationCore dll will give basic low level classes and components of WPF. These classes are the one that interact with the Milcore to create foundation for WPF Components. 
+PresentationFramework Dll will contain the ready to use classes and components of WPF that programmers use to make their applications.
+
+What is XAML?
+XAML stands for eXtensible application markup language. It is an XML based language used for developing User Interfaces for WPF. The UI will now be an XML based file and the code behind will be C# file. C# file contains the event handling code and XAML will contain the User interface of UR Application. XML files are created using self descriptive Tags. The tags describe about the data associated with it.
+The intension of XAML is to cleanly seperate the User Interface code and the Functionality code. The Functionality is developed in C# and the UI is developed using XAML. 
+
+The controls of WPF will be placed in the Window in the form of Elements. There are 2 types of Controls in WPF:
+Content Controls and Container Controls. Window is a content control. It can hold only one element in it.
+Container elements will allow multiple controls to be placed in them on a pattern. This pattern is called Layout. Each layout comes with a pattern, based on which we use them in our WIndow. 

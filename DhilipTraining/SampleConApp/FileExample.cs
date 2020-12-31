@@ -12,7 +12,7 @@ namespace SampleConApp
 
             //readingExample();
 
-            readNamesFromCSVFile();
+            //readNamesFromCSVFile();
 
             //writeToCSVFile();
         }

@@ -1,7 +1,10 @@
-C:\Users\phani\source\repos\DhilipTraining\SampleConApp\bin\Debug\SampleConApp.exe.config
-C:\Users\phani\source\repos\DhilipTraining\SampleConApp\bin\Debug\SampleConApp.exe
-C:\Users\phani\source\repos\DhilipTraining\SampleConApp\bin\Debug\SampleConApp.pdb
 C:\Users\phani\source\repos\DhilipTraining\SampleConApp\obj\Debug\SampleConApp.csprojAssemblyReference.cache
 C:\Users\phani\source\repos\DhilipTraining\SampleConApp\obj\Debug\SampleConApp.csproj.CoreCompileInputs.cache
 C:\Users\phani\source\repos\DhilipTraining\SampleConApp\obj\Debug\SampleConApp.exe
 C:\Users\phani\source\repos\DhilipTraining\SampleConApp\obj\Debug\SampleConApp.pdb
+C:\Users\phani\source\repos\DhilipTraining\SampleConApp\SampleConApp.exe.config
+C:\Users\phani\source\repos\DhilipTraining\SampleConApp\SampleConApp.exe
+C:\Users\phani\source\repos\DhilipTraining\SampleConApp\SampleConApp.pdb
+C:\Users\phani\source\repos\DhilipTraining\SampleConApp\bin\Debug\SampleConApp.exe.config
+C:\Users\phani\source\repos\DhilipTraining\SampleConApp\bin\Debug\SampleConApp.exe
+C:\Users\phani\source\repos\DhilipTraining\SampleConApp\bin\Debug\SampleConApp.pdb

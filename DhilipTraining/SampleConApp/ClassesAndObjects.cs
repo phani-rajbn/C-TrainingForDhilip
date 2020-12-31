@@ -32,6 +32,7 @@ namespace SampleConApp
                         return;//Exit the function...
                     }
                 }
+                throw new Exception("No Employee Exists with this ID to delete");
             }
 
             public void UpdateEmployeeDetails(Employee emp)

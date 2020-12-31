@@ -1,0 +1,6 @@
+C:\Users\phani\source\repos\DhilipTraining\BaseClassLib\bin\Debug\BaseClassLib.dll
+C:\Users\phani\source\repos\DhilipTraining\BaseClassLib\bin\Debug\BaseClassLib.pdb
+C:\Users\phani\source\repos\DhilipTraining\BaseClassLib\obj\Debug\BaseClassLib.csprojAssemblyReference.cache
+C:\Users\phani\source\repos\DhilipTraining\BaseClassLib\obj\Debug\BaseClassLib.csproj.CoreCompileInputs.cache
+C:\Users\phani\source\repos\DhilipTraining\BaseClassLib\obj\Debug\BaseClassLib.dll
+C:\Users\phani\source\repos\DhilipTraining\BaseClassLib\obj\Debug\BaseClassLib.pdb

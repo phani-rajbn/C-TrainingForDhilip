@@ -13,21 +13,26 @@ namespace SampleConApp
 {
     delegate void funcType();
 
+    delegate double MathOperation(double v1, double v2);
+
+    class MathProgram
+    {
+        public static void InvokeMathOperation(MathOperation operation)
+        {
+            double num1 = Common.GetDouble("Enter First value");
+            double num2 = Common.GetDouble("Enter Second value");
+            double result = operation(num1, num2);
+            Console.WriteLine("The result: " + result);
+        }
+    }
     class DelegatesExample
     {
-        static void TestFunc(funcType funcName)
-        {
-            Console.WriteLine("UR Implementation");
-            funcName();//The function will be called inside the TestFunc...
-            Console.WriteLine("Going Back");
-        }
+        static double subFunc(double v1, double v2) => v1 - v2;
+        static double addFunc(double v1, double v2) => v1 + v2;
         static void Main(string[] args)
         {
-            TestFunc(myFunc);
-             
-            //MathOperation op = addFunc;
-            //MathProgram.InvokeMathOperation(op);
-
+            //TestFunc(myFunc);
+            MathProgram.InvokeMathOperation(addFunc);
             //using lambda Expression to instantiate a delegate...
             //multicastExample();
         }
@@ -42,22 +47,15 @@ namespace SampleConApp
 
             ex();//call the delegate object. Delegate instance is more like an alias to Ur function...
         }
-
-        static double subFunc(double v1, double v2) => v1 - v2;
-        static double addFunc(double v1, double v2) => v1 + v2;
+        static void TestFunc(funcType funcName)
+        {
+            Console.WriteLine("UR Implementation");
+            funcName();//The function will be called inside the TestFunc...
+            Console.WriteLine("Going Back");
+        }
+        
         
     }
 
-    delegate double MathOperation(double v1, double v2);
-
-    class MathProgram
-    {
-        public static void InvokeMathOperation(MathOperation operation)
-        {
-            double num1 = Common.GetDouble("Enter First value");
-            double num2 = Common.GetDouble("Enter Second value");
-            double result = operation(num1, num2);
-            Console.WriteLine("The result: " + result);
-        }
-    }
+   
 }
