@@ -13,3 +13,5 @@ The intension of XAML is to cleanly seperate the User Interface code and the Fun
 The controls of WPF will be placed in the Window in the form of Elements. There are 2 types of Controls in WPF:
 Content Controls and Container Controls. Window is a content control. It can hold only one element in it.
 Container elements will allow multiple controls to be placed in them on a pattern. This pattern is called Layout. Each layout comes with a pattern, based on which we use them in our WIndow. 
+
+Command bindings are bindings done to Ur User interface elements with std commands of the Windows OS. There are 4 types of commands: Application Commands, Media Commands, Navigation Commands and Custom Commands. These commands will implement an interface called ICommand. The ICommand interface contain methods called Executed and OnExecute.Executed will be an event when the action occurs and OnExecute is one that is triggered before any execution happens.

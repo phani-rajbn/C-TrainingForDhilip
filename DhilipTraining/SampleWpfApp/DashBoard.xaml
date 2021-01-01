@@ -12,7 +12,8 @@
                 <MenuItem Header="MainWindow" Click="MenuItem_Click"/>
                 <MenuItem x:Name="mnuGrid" Header="Grid Window" Click="onGridClick"/>
                 <Separator/>
-                <MenuItem Header="Text Window"/>
+                <MenuItem Header="Text Window" Click="onTextWindow"/>
+                <MenuItem Header="Event Binding" Click="onEventWindow"/>
                 <MenuItem Header="Data Binding"/>
             </MenuItem>
         </Menu>

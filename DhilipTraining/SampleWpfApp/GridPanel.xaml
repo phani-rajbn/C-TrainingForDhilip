@@ -14,12 +14,13 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Label Margin="2" HorizontalContentAlignment="Center" Grid.ColumnSpan="2">Employee Details</Label>
+        <Label Margin="2" FontSize="34" HorizontalContentAlignment="Center" Grid.ColumnSpan="2">Employee Details</Label>
         <Label Margin="2" HorizontalAlignment="Right" Grid.Row="1">Enter the Employee ID</Label>
         <Label Margin="2" HorizontalAlignment="Right" Grid.Row="2">Enter the Employee Name</Label>
         <Label Margin="2" HorizontalAlignment="Right" Grid.Row="3">Enter the Employee Address</Label>
@@ -29,8 +30,11 @@
         <TextBox Margin="2" Width="250" HorizontalAlignment="Left"  Grid.Column="1" Grid.Row="3" Name="txtAddress"/>
         <TextBox Margin="2" Width="250" HorizontalAlignment="Left"  Grid.Column="1" Grid.Row="4" Name="txtPhone"/>
         <WrapPanel Margin="2" Grid.Row="5" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <Button Margin="5">Save Changes</Button>
-            <Button Margin="5">Cancel</Button>
+            <Button Margin="5" Click="onSave">Save Changes</Button>
+            <Button Margin="5" Click="onCancel">Cancel</Button>
         </WrapPanel>
+        <WrapPanel Margin="2" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <Label Name="lblDisplay" Margin="5" FontSize="24"/>
+        </WrapPanel> 
     </Grid>
 </Window>

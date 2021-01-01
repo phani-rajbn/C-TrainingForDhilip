@@ -35,5 +35,17 @@ namespace SampleWpfApp
             GridPanel panel = new GridPanel();
             panel.ShowDialog();
         }
+
+        private void onTextWindow(object sender, RoutedEventArgs e)
+        {
+            NotepadExample win = new NotepadExample();
+            win.ShowDialog();
+        }
+
+        private void onEventWindow(object sender, RoutedEventArgs e)
+        {
+            ElementBinidng win = new ElementBinidng();
+            win.ShowDialog();
+        }
     }
 }
