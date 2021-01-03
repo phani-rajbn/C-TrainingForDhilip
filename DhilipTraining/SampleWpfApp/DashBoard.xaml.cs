@@ -47,5 +47,23 @@ namespace SampleWpfApp
             ElementBinidng win = new ElementBinidng();
             win.ShowDialog();
         }
+
+        private void onResource(object sender, RoutedEventArgs e)
+        {
+            Resources win = new Resources();
+            win.ShowDialog();
+        }//Show(Modaless) vs ShowDialog(Modal)..
+
+        private void OnStyles(object sender, RoutedEventArgs e)
+        {
+            Styles win = new Styles();
+            win.ShowDialog();
+        }
+
+        private void onTrigger(object sender, RoutedEventArgs e)
+        {
+            TriggersExample win = new TriggersExample();
+            win.ShowDialog();
+        }
     }
 }

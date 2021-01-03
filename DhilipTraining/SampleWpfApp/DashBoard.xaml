@@ -16,6 +16,16 @@
                 <MenuItem Header="Event Binding" Click="onEventWindow"/>
                 <MenuItem Header="Data Binding"/>
             </MenuItem>
+            <MenuItem Header="UI Features">
+                <MenuItem Header="_Resources" Click="onResource"/>
+                <MenuItem Header="_Styles" Click="OnStyles"/>
+                <MenuItem Header="_Triggers" Click="onTrigger"/>
+                <MenuItem Header="_Data Triggers"/>
+                <MenuItem Header="_Dimensional"/>
+            </MenuItem>
+            <MenuItem Header="MVVM">
+                <MenuItem Header="Mvvm Example"/>
+            </MenuItem>
         </Menu>
     </DockPanel>
 </Window>
